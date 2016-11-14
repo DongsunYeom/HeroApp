@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/relevance" android:title="Relevance" />
+    <item android:id="@+id/date_posted" android:title="Date posted"/>
+    <item android:id="@+id/date_taken" android:title="Date taken"/>
+</menu>

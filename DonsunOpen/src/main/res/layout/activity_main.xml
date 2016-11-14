@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/container"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:id="@+id/layout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@color/page_background"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/page_background"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_margin="5dp">
+
+				<EditText
+					android:id="@+id/searchTermField"
+					android:layout_width="0dip"
+					android:layout_height="32dip"
+					android:layout_marginRight="4dip"
+					android:layout_weight="1"
+					android:background="@drawable/entry_background"
+					android:imeActionLabel="Go"
+					android:imeOptions="actionSearch"
+					android:textColor="#FF555555"
+					android:textSize="18.0dip" />
+
+
+				<ImageView
+					android:id="@+id/searchbutton"
+					android:layout_width="wrap_content"
+					android:layout_height="32dip"
+					android:layout_gravity="right"
+					android:background="#00efefef"
+					android:scaleType="fitCenter"
+					android:src="@drawable/ic_action_search" />
+
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<FrameLayout
+			android:id="@+id/fl_fragment"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			/>
+
+	</LinearLayout>
+
+</FrameLayout>  	  	
